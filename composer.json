@@ -1,0 +1,37 @@
+{
+    "name": "lottevo/lottevo-php",
+    "description": "A thin PHP client for the Lottevo lottery data API.",
+    "type": "library",
+    "keywords": [
+        "lottevo",
+        "lottery",
+        "results",
+        "api",
+        "sdk"
+    ],
+    "homepage": "https://lottevo.com/docs/sdks",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lottevo",
+            "email": "contact@lottevo.com",
+            "homepage": "https://lottevo.com"
+        }
+    ],
+    "support": {
+        "email": "contact@lottevo.com",
+        "issues": "https://github.com/astefalabs/lottevo-php/issues",
+        "source": "https://github.com/astefalabs/lottevo-php",
+        "docs": "https://lottevo.com/docs/sdks"
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lottevo\\": "src/"
+        }
+    }
+}
