@@ -12,7 +12,7 @@ use InvalidArgumentException;
  */
 final class Client extends Endpoints
 {
-    public const VERSION = '0.1.0';
+    public const VERSION = '0.2.0';
 
     public const DEFAULT_BASE_URL = 'https://api.lottevo.com/v1';
 

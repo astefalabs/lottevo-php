@@ -41,9 +41,9 @@ final class Draws extends Resource
     }
 
     /**
-     * One result by id. Ids are stable, and this is the URL a webhook payload and
-     * an export row both point back at. A result older than the history your plan
-     * includes is refused with `history_not_included`
+     * One result by id. Ids are stable, and this is the URL a webhook payload
+     * points back at. A result older than the history your plan includes is
+     * refused with `history_not_included`
      *
      * GET /draws/{draw}
      *

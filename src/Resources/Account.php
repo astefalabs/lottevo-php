@@ -9,9 +9,10 @@ use Lottevo\Resource;
 final class Account extends Resource
 {
     /**
-     * What the calling key is: its account's plan, its scopes and what the account
-     * has spent today. The integration smoke test — a client can verify a key
-     * works without needing a scope, and read its own ceiling from the answer
+     * What the calling key is: its account's plan, its scopes and how many
+     * requests the account has made today. The integration smoke test — a client
+     * can verify a key works without needing a scope, and read its own ceiling
+     * from the answer
      *
      * GET /account
      *
